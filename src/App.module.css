@@ -1,0 +1,14 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+    /* 
+        faz com que a sidebar e o main se mantenham alinhados ao topo, 
+        para que nenhum dos dois seja esticados até que tenham a mesma altura 
+    */
+}
