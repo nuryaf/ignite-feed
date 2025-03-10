@@ -1,6 +1,7 @@
 import { PencilLine } from 'phosphor-react';
 
 import styles from './Sidebar.module.css';
+import { Avatar } from './Avatar';
 
 export function Sidebar() {
     const avatarImage = 'https://github.com/nuryaf.png';
@@ -13,9 +14,7 @@ export function Sidebar() {
                 src={coverImage} 
             />
             <div className={styles.profile}>
-                <img 
-                    className={styles.avatar}
-                    src={avatarImage} />
+                <Avatar src={avatarImage} />
                 <strong>Nurya Fernandes</strong>
                 <span>Frontend developer</span>
             </div>

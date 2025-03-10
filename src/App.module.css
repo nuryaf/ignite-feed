@@ -12,3 +12,13 @@
         para que nenhum dos dois seja esticados até que tenham a mesma altura 
     */
 }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
